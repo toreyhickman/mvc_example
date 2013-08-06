@@ -1,0 +1,14 @@
+<% students = Student.where("enrolled = true") %>
+
+<div class="container">
+  <h1>Students</h1>
+  <div class="list_holder">
+    <h2>Enrolled Students</h2>
+
+    <ol>
+      <% students.each do |student| %>
+        <li><%= "#{student.last_name}, #{student.first_name}" %></li>
+      <% end %>
+    </ol>
+  </div>
+</div>
