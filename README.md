@@ -1,4 +1,4 @@
 model_view_controller_example
 =============================
 
-Branches show stages of dispersing responsibilities from the view to the controller and model
+Commits show stages of moving responsibilities from the view to the controller and the model.
