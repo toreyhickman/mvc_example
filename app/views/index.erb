@@ -5,7 +5,7 @@
 
     <ol>
       <% @students.each do |student| %>
-        <li><%= "#{student.last_name}, #{student.first_name}" %></li>
+        <li><%= student.display_last_name_first_name %></li>
       <% end %>
     </ol>
   </div>
