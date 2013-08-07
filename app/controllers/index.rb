@@ -1,4 +1,4 @@
 get '/' do
-  @students = Student.where("enrolled = true")
+  @students = Student.currently_enrolled
   erb :index
 end
